@@ -1,0 +1,19 @@
+{
+  "name": "gestaoprodutos",
+  "version": "1.0.0",
+  "description": "sistema para gerenciar produtos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gestao",
+    "produtos"
+  ],
+  "author": "Gabriel Davi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.8.1"
+  }
+}
