@@ -6,9 +6,9 @@ const auth = require('../middleware/auth');
 // Criar categoria
 router.post('/', auth, async (req, res) => {
     try {
-      const category = new Category(req.body);
-      await category.save();
-      res.status(201).json(category);
+      const category = new Category(req.body); // Cria nova categoria.
+      await category.save(); // Salva no banco.
+      res.status(201).json(category); // Retorna a categoria criada.
     } catch (error) {
       res.status(400).json({ error: error.message });
     }
