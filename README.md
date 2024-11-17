@@ -6,7 +6,7 @@ API para gerenciar produtos e categorias (CRUD)
 
 ## Tecnologias
  
-- [Node.js](https://nodejs.org/)
+- [Node.js (Express)](https://nodejs.org/)
 - [MongoDB (Atlas)](https://www.mongodb.com/pt-br/products/platform/atlas-database)
 
 ## Boas práticas adotadas
