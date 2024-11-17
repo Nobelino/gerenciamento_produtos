@@ -18,7 +18,7 @@ router.post('/', auth, async (req, res) => {
   // Listar todos os produtos
   router.get('/', auth, async (req, res) => {
     try {
-      const products = await Product.find().populate('categories');
+      const products = await Product.find().populate('categories'); // Busca produtos e suas categorias.
       res.json(products);
     } catch (error) {
       res.status(500).json({ error: error.message });
