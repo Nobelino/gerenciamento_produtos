@@ -20,6 +20,7 @@ API para gerenciar produtos e categorias (CRUD)
 ## Como Executar
 
 - Clonar repositório git
+- Criar arquivo .env e colocar a variável: MONGODB_URI="coloque a string de conexão do MongoDB"retryWrites=true&w=majority
 - Executar os seguintes comandos:
 ```
 npm install
