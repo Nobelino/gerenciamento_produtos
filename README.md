@@ -2,7 +2,11 @@
   Sistema para gerenciamento de produtos
 </h1>
 
-API para gerenciar produtos e categorias (CRUD)
+Este projeto é uma aplicação de gerenciamento de produtos com usuários autenticados. Ele possui:
+
+- CRUD de usuários, produtos e categorias.
+- Autenticação via JWT.
+- Banco de dados MongoDB para armazenar dados.
 
 ## Tecnologias
  
