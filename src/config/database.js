@@ -1,4 +1,3 @@
-// src/config/database.js
 const mongoose = require('mongoose'); // Importa o driver para se conectar ao MongoDB.
 
 const connectDB = async () => {
